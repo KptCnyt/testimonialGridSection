@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 812px;
+}
+div {
+    border-radius: 10px;
+    padding:20px;
+    background-repeat: no-repeat;
+}
+#allcards {
+    width: 1000px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 30px;
+}
+#dclifford {
+    background-color: hsl(263, 55%, 52%);
+    grid-area: 1/1/2/3;
+    background-image: url(bg-pattern-quotation.svg);
+    background-position: 80% 10%;
+    display: flex;
+}
+#cwalters {
+    background-color: hsl(217, 19%, 35%);
+}
+#kwhittle {
+    background-color: hsl(0, 0%, 81%);
+    grid-area: 1/4/3/5;
+}
+#jharmon {
+    background-color: white;
+}
+#pabrams {
+    background-color: hsl(219, 29%, 14%);
+    grid-area: 2/2/3/4;
+}
+#daniel {
+    height: 30px;
+    width: 100px;
+    border: 1px bold black;
+    display: flex;
+}
+#image1 {
+    border-radius: 50%;
+    border:1px solid white;
+}
